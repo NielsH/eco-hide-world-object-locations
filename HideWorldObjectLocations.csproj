@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Eco.Mods.HideWorldObjectLocations</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eco.Core\Eco.Core.csproj" />
+    <ProjectReference Include="..\Eco.Gameplay\Eco.Gameplay.csproj" />
+    <ProjectReference Include="..\Eco.Mods\Eco.Mods.csproj" />
+    <ProjectReference Include="..\Eco.Plugins\Eco.Plugins.csproj" />
+    <ProjectReference Include="..\Eco.Simulation\Eco.Simulation.csproj" />
+  </ItemGroup>
+</Project>
